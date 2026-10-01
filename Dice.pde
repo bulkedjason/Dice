@@ -1,12 +1,12 @@
 void setup()
   {
-    size(400,400);
+    size(500,500);
     noLoop();
   }
   void draw()
   {
-    for(int i=0;i<400;i=i+100){
-      for(int j=0;j<400;j=j+100){
+    for(int i=0;i<500;i=i+100){
+      for(int j=0;j<500;j=j+100){
         Die bob=new Die(j,i);
         bob.roll();
         bob.show();
